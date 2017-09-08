@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">家庭理财通</string>
+    <string name="main">家庭理财通</string>
+
+    <string name="payment_info">我的支出</string>
+    <string name="data_manager">数据管理</string>
+    <string name="system_setting">系统设置</string>
+    <string name="note">收支便签</string>
+    <string name="income_payment_manage">收支管理</string>
+    <string name="note_manage">便签管理</string>
+    <string name="note_add"> 新增便签</string>
+
+    <!-- Strings related to login -->
+    <string name="hint_input_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="btn_cancel_text">取消</string>
+
+    <!-- Strings related to button or Actionbar-->
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+
+    <!--String related to income and payment-->
+    <string name="add_income">新增收入</string>
+    <string name="edit_income">编辑收入</string>
+    <string name="add_payment">新增支出</string>
+    <string name="edit_payment">编辑支出</string>
+    <string name="amount">金  额：</string>
+    <string name="hint_edit_amount">0.00</string>
+    <string name="time">时  间：</string>
+    <string name="hint_edit_time">yyyy-MM-dd</string>
+    <string name="type">类  别：</string>
+    <string name="payer">付款方：</string>
+    <string name="comment">备  注：</string>
+    <string name="address">地  址：</string>
+
+    <!--String related to  IncomeBrowseActivity-->
+    <string name="my_income">我的收入</string>
+    <string name="header_income_id">编号</string>
+    <string name="header_income_date">日期</string>
+    <string name="header_income_money">金额</string>
+    <string name="header_income_type">类别</string>
+    <string name="checked_all">全选</string>
+
+    <!--String related to  PaymentBrowseActivity-->
+    <string name="my_payment">我的支出</string>
+    <string name="header_payment_id">编号</string>
+    <string name="header_payment_date">日期</string>
+    <string name="header_payment_money">金额</string>
+    <string name="header_payment_type">类别</string>
+
+    <!--String related to Note-->
+    <string name="my_note">我的便签</string>
+    <string name="header_note_id">编号</string>
+    <string name="header_note_note">便签</string>
+    <string name="hint_input_note">请输入便签内容</string>
+    <string name="add_note">新增便签</string>
+    <string name="edit_note">编辑便签</string>
+</resources>

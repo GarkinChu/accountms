@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".activity.PaymentEditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/editPaymentAmountTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/amount"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editPaymentAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edit_amount"
+        android:inputType="numberDecimal"
+        android:maxLength="18" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/editPaymentTimeTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/editPaymentTimeEditText"
+        android:text="@string/time"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editPaymentTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edit_time"
+        android:inputType="datetime" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/editPaymentTypeEditText"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/editPaymentTypeSpinner"
+        android:text="@string/type"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/editPaymentTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/array_payment_type"
+        android:spinnerMode="dialog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/editPaymentAddressTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/editPaymentAddressEditText"
+        android:text="@string/address"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editPaymentAddressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="false"
+        android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/editPaymentCommentTextView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/editPaymentCommentEditText"
+        android:text="@string/comment"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editPaymentCommentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
